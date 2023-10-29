@@ -1,0 +1,29 @@
+.nav-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    display: inline-flex;
+   align-self: center;
+}
+
+.nav-item{
+    margin: 15px;
+}
+
+.nav-item:hover,.nav-link:hover{
+    color: rgb(255, 192, 98);
+}
+.navbar-nav{
+    display: inline-flex;
+    list-style: none;
+}
+
+h1{
+    font-weight: 700 !important;
+    text-align: center !important;
+    line-height: 40px;
+    font-size: 30px;
+    font-family: Poppins,sans-serif;
+    margin:20px
+}

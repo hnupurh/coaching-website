@@ -1,0 +1,225 @@
+ /*Don't forget to add Font Awesome CSS : "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"*/
+ body{
+    background-color: #ac8425;
+ }
+ .form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 505px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 65px;
+    padding-right: 65px;
+    border-radius: 50px;
+    background-clip: padding-box;
+    background: rgba(130, 130, 130, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #ffde59;
+  }
+  ::-webkit-input-placeholder {
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+  ::-webkit-textarea-placeholder {
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+  ::-moz-placeholder {
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+  :-ms-input-placeholder {
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+  :-ms-textarea-placeholder {
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+  ::placeholder {
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+  .button {
+    background: #3a5c86;
+    border: 2px solid #aaa;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.45em;
+    box-sizing: border-box;
+    transition: 0.3s;
+    text-align: center;
+    text-justify: center;
+    border-radius: 30px;
+    border: 2px;
+    width: 300px;
+    height: 30px;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+  }
+  input[type="text"] {
+    border: 2px solid #aaa;
+    margin-bottom: 20px;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.3s;
+    border-radius: 30px;
+    border: 2px;
+    font-family: Source Sans Pro;
+    font-size: 16;
+    padding: 30px 60px;
+    width: 300px;
+    height: 30px;
+  }
+  textarea {
+    border: 2px solid #aaa;
+    margin-bottom: 20px;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.3s;
+    border-radius: 30px;
+    border: 2px;
+    font-family: Source Sans Pro;
+    font-size: 16;
+    padding: 30px 60px;
+    width: 300px;
+    height: 150px;
+  }
+  textarea[type="text"]:focus {
+    box-shadow: 0 0 8px 0 dodgerBlue;
+  }
+  textarea[type="text"]:focus {
+    box-shadow: 0 0 8px 0 dodgerBlue;
+  }
+  .inputWithIcon textarea[type="text"] {
+    padding-left: 80px;
+    padding-top: 55px;
+  }
+
+  input[type="text"]:focus {
+    box-shadow: 0 0 8px 0 dodgerBlue;
+  }
+
+  .inputWithIcon input[type="text"] {
+    padding-left: 80px;
+    padding-top: 35px;
+  }
+  input[type="password"] {
+    border: 2px solid #aaa;
+    margin-bottom: 20px;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.3s;
+    border-radius: 30px;
+    border: 2px;
+    padding: 30px 40px;
+    width: 300px;
+    height: 30px;
+  }
+
+  input[type="password"]:focus {
+    box-shadow: 0 0 8px 0 dodgerBlue;
+  }
+  input[type="radio"] {
+    border: 1px solid #fff;
+    padding: 0.5em;
+  }
+  .inputWithIcon input[type="text"] {
+    padding-left: 80px;
+  }
+  .inputWithIcon input[type="password"] {
+    padding-left: 80px;
+  }
+
+  .inputWithIcon {
+    position: relative;
+  }
+  input:required {
+    box-shadow: 4px 4px 20px rgba(168, 48, 48, 0.85);
+  }
+
+  /**
+* style input elements that have a required
+* attribute and a focus state
+*/
+  input:required:focus {
+    border: 1px solid rgba(168, 48, 48, 0.85);
+    outline: none;
+  }
+
+  /**
+* style input elements that have a required
+* attribute and a hover state
+*/
+  input:required:hover {
+    opacity: 1;
+  }
+
+  .inputWithIcon i {
+    position: absolute;
+    left: 30px;
+    top: 18px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
+  }
+
+  .inputWithIcon input[type="text"]:focus + i {
+    color: dodgerBlue;
+  }
+
+  .inputWithIcon.inputIconBg i {
+    background-color: #aaa;
+    color: #fff;
+    padding: 9px 4px;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .inputWithIcon.inputIconBg input[type="text"]:focus + i {
+    color: #fff;
+    background-color: dodgerBlue;
+  }
+  .unstyled {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .centered {
+    width: 300px;
+    margin: auto;
+  }
+  input.largerCheckbox {
+    width: 15px;
+    height: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .tag {
+    text-decoration-color: black;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .label {
+    text-align: center;
+  }
